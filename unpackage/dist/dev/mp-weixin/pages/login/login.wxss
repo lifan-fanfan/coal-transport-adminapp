@@ -1,0 +1,9 @@
+.username-wrap .username {
+  float: right;
+  border: 1px solid #eee;
+}
+.password-wrap .password {
+  float: right;
+  border: 1px solid #eee;
+}
+
