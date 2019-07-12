@@ -6,7 +6,7 @@
 		<view class="password-wrap">
 			密码：<input type="password" class="password" v-model="passWord" />
 		</view>
-		<view class="">
+		<view class="btn">
 			<button @click="submitEvent">登录</button>
 		</view>
 	</view>
