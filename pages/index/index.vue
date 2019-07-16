@@ -1,8 +1,8 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
+		
 		<view>
-			<text class="title">{{title}}</text>
+			<text class="title" @click="change">{{title}}</text>
 		</view>
 	</view>
 </template>
@@ -11,14 +11,28 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: '登录成功'
 			}
 		},
 		onLoad() {
-
+			uni.request({
+				url: 'https://www.easy-mock.com/mock/5d2d40d61499cb25afc95577/index', //仅为示例，并非真实接口地址。
+				method: 'POST',
+				data: {
+					
+				},
+				
+				success: (res) => {
+					console.log(res.data);
+				}
+			});
 		},
 		methods: {
-
+			change() {
+				uni.navigateTo({
+					url: '../details/details'
+				});
+			}
 		}
 	}
 </script>

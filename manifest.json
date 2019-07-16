@@ -48,7 +48,14 @@
             /* ios打包配置 */
             "ios" : {},
             /* SDK配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {},
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "static/startpic480.png",
+                    "xhdpi" : "static/startpic720.png",
+                    "xxhdpi" : "static/startpic1080.png"
+                }
+            }
         }
     },
     /* 快应用特有相关 */

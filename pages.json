@@ -7,15 +7,19 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "煤矿出入运输管理"
 			}
 		}
 	    
+        ,{
+            "path" : "pages/details/details",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "煤矿出入运输管理",
+		"navigationBarBackgroundColor": "#0598e4",
 		"backgroundColor": "#F8F8F8"
 	}
 }
